@@ -1,0 +1,134 @@
+body {
+  background: #f6f8fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.auth-box {
+  max-width: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auth-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.auth-form input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  transition: background 0.2s;
+}
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+.btn-secondary {
+  background: #e5e7eb;
+  color: #222;
+}
+.btn-secondary:hover {
+  background: #d1d5db;
+}
+.btn-success {
+  background: #22c55e;
+  color: #fff;
+}
+.btn-success:hover {
+  background: #16a34a;
+}
+
+.features-page {
+  text-align: center;
+}
+.features-table {
+  width: 100%;
+  margin: 18px 0;
+  border-collapse: collapse;
+}
+.features-table th, .features-table td {
+  padding: 8px 10px;
+  border: 1px solid #e5e7eb;
+}
+.features-table th {
+  background: #f1f5f9;
+}
+.features-table .yes {
+  color: #22c55e;
+  font-size: 1.2em;
+}
+.features-table .no {
+  color: #ef4444;
+  font-size: 1.2em;
+}
+.plan-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.dashboard {
+  margin-top: 12px;
+}
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.upload-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+.upload-form input[type="file"] {
+  margin-top: 4px;
+}
+.result-section {
+  margin-top: 18px;
+  text-align: center;
+}
+.message {
+  margin-top: 18px;
+  padding: 12px;
+  background: #fef3c7;
+  color: #92400e;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1.05em;
+}

@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This is a React frontend for a voice cloning service. The app should include user login/register (free/paid selection), audio upload form (with duration check for free users), optional target voice upload (paid only), progress/status display, and download link for the result. Integrate with the FastAPI backend at /api/clone-voice/.

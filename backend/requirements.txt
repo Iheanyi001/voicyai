@@ -1,0 +1,21 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+# ML and audio dependencies
+numpy
+scipy
+librosa
+openai-whisper
+torch
+TTS
+nltk
+# For authentication
+python-jose[cryptography]
+passlib[bcrypt]
+# For file handling
+python-dotenv
+# For logging
+logging
+# For database
+sqlite3

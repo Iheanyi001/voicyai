@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+This is a FastAPI backend for a voice cloning service. The service supports user authentication (free/paid), audio upload with duration checks, optional target voice upload (paid only), and a voice cloning endpoint that returns a generated .wav file. Organize code into app/ with routes, auth, utils, and voice_cloning modules. Use best practices for API security and file handling.
